@@ -100,6 +100,15 @@
                 <div class="d-flex justify-content-center">
                     <div class="ProcessTitle">Packaged Flour Milling Process</div>
                 </div>
+                <div id="steps" class="owl-carousel">
+                    <img class="img-fluid" style="border: 0px solid black;" src="https://placehold.jp/bfbfbf/000000/275x275.png?text=Step%201">
+                    <img class="img-fluid" style="border-left: 2px solid black;" src="https://placehold.jp/bfbfbf/000000/275x275.png?text=Step%202">
+                    <img class="img-fluid" style="border-left: 2px solid black;" src="https://placehold.jp/bfbfbf/000000/275x275.png?text=Step%203">
+                    <img class="img-fluid" style="border-left: 2px solid black;" src="https://placehold.jp/bfbfbf/000000/275x275.png?text=Step%204">
+                    <img class="img-fluid" style="border-left: 2px solid black;" src="https://placehold.jp/bfbfbf/000000/275x275.png?text=Step%205">
+                    <img class="img-fluid" style="border-left: 2px solid black;" src="https://placehold.jp/bfbfbf/000000/275x275.png?text=Step%206">
+                    <img class="img-fluid" style="border-left: 2px solid black;" src="https://placehold.jp/bfbfbf/000000/275x275.png?text=Step%207">
+                </div>
             </div>
         </div>
     </section>
@@ -303,6 +312,18 @@
         $(document).ready(function () {
             $("#brandvideo").owlCarousel({
                 items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [980, 1],
+                itemsMobile: [600, 1],
+                navigation: true,
+                navigationText: ["", ""],
+                pagination: true,
+                autoPlay: true,
+                margin: 10
+            });
+
+            $("#steps").owlCarousel({
+                items: 5,
                 itemsDesktop: [1199, 1],
                 itemsDesktopSmall: [980, 1],
                 itemsMobile: [600, 1],
