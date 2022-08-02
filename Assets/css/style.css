@@ -15,6 +15,11 @@ section{
   font-size: 3.5rem;
 }
 
+.TitleTextWF{
+  font-size: 3.5rem;
+  color: white;
+}
+
 .ProcessTitle{
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -33,11 +38,17 @@ section{
   border-radius: 30px;
 }
 
+.gradwf {
+  background-image: linear-gradient(#407BB9, #435A9E);
+  padding: 50px 0px;
+  /* border-radius: 30px 30px 0px 0px; */
+}
+
 .gradfooter {
   /* height: 260px; */
   /* margin: 125px 0px 0px 0px; */
   background-image: linear-gradient(#407BB9, #435A9E);
-  border-radius: 30px;
+  border-radius: 30px 30px 0px 0px;
 }
 
 .gradceo {
@@ -88,4 +99,54 @@ section{
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+
+.contact {
+  padding-top: 5px;
+}
+
+.contact .info {
+  width: 100%;
+  /* background: #fff; */
+}
+
+.contact .info i {
+  font-size: 20px;
+  /* color: #5fcf80; */
+  float: left;
+  width: 44px;
+  height: 44px;
+  /* background: #ecf9f0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  /* background: #5fcf80; */
+  /* color: #fff; */
 }
